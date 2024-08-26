@@ -3,11 +3,17 @@ AMIDEWIN Spoofer made in python. Should work on most games besides valorant or f
 
 # Roadmap 🗺️
 ✅ 0 Stars = Perm Spoofing
+
 ❌ 5 Stars = https://keyauth.cc/ Integration
+
 ❌ 10 Stars = Temp Spoofing + HWID Checker added
+
 ❌ 15 Stars = Cleaners + Mac spoofing + Monitor Spoofing
+
 ❌ 30 Stars = GUI Integration (customtkinter) + Asus Perm Spoofing
+
 ❌ 50 Stars = Locked (OEM) Perm Spoofing + Custom Mapper for Temp Spoofing
+
 ❌ 100 Stars = TPM Bypass and GPU Spoofing (for valorant and fivem) + Undetected Spoofing Methods 
 
 # Showcase/tutorial video 📽️
