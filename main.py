@@ -4,6 +4,8 @@ import sys
 import string
 import time
 
+
+# Get a logo from https://patorjk.com/software/taag/
 logo = """
   .-.                                   
  /    \                                 
@@ -21,10 +23,12 @@ logo = """
 """
 
 def genSerials():
-    # Generate serials
+    # Generate random serials
     serial = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(16))
     return serial
 
+
+# Basic choices
 os.system("cls")
 print(logo + "\n\n")
 choice = input("[1] Spoof\n[2] Exit\n\nEnter your choice: ")
@@ -53,6 +57,8 @@ if choice == "1":
     time.sleep(3)
     sys.exit()
 
+
+# Exit binds
 elif choice == "2":
     print("Exiting!")
     time.sleep(3)
