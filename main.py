@@ -33,12 +33,14 @@ APP_NAME = "app name"
 OWNER_ID = "owner id"
 APP_SECRET = "secret"
 APP_VERSION = "1.0"  
+HASH = "browns?"
 
 keyauthapp = keyauth.api(
     name=APP_NAME,
     ownerid=OWNER_ID,
     secret=APP_SECRET,
     version=APP_VERSION
+    hash_to_check=HASH
 )
 
 os.system("cls")
