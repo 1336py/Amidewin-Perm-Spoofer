@@ -3,7 +3,7 @@ import random
 import sys
 import string
 import time
-
+from libs import keyauth
 
 # Get a logo from https://patorjk.com/software/taag/
 logo = """
@@ -27,6 +27,34 @@ def genSerials():
     serial = ''.join(random.choice(string.ascii_letters + string.digits) for i in range(16))
     return serial
 
+
+# Keyauth prerequisites
+APP_NAME = "app name"
+OWNER_ID = "owner id"
+APP_SECRET = "secret"
+APP_VERSION = "1.0"  
+
+keyauthapp = keyauth.api(
+    name=APP_NAME,
+    ownerid=OWNER_ID,
+    secret=APP_SECRET,
+    version=APP_VERSION
+)
+
+os.system("cls")
+print(logo + "\n\n")
+key = input("Enter your key: ")
+
+# Keyauth
+# Probably doesn't work, lmk if it doesn't 
+try:
+    keyauthapp.license(key)
+    print("Key validated successfully.")
+except Exception as e:
+    print(f"Authentication failed: {str(e)}")
+    print("Exiting!")
+    time.sleep(3)
+    sys.exit()
 
 # Basic choices
 os.system("cls")
