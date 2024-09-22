@@ -1,5 +1,5 @@
 # amidewin 💻
-AMIDEWIN Spoofer made in python. Should work on most games besides valorant or fivem, but very detected.
+AMIDEWIN Spoofer made in python. Should work on most games besides valorant, but very detected.
 
 # Roadmap 🗺️
 ✅ 0 Stars = Perm Spoofing
@@ -14,7 +14,7 @@ AMIDEWIN Spoofer made in python. Should work on most games besides valorant or f
 
 ❌ 50 Stars = Locked (OEM) Perm Spoofing + Custom Mapper for Temp Spoofing
 
-❌ 100 Stars = TPM Bypass and GPU Spoofing (for valorant and fivem) + Undetected Spoofing Methods 
+❌ 100 Stars = TPM Bypass (for valorant) + (Semi) Undetected Spoofing Methods 
 
 # Showcase/tutorial video 📽️
 https://www.youtube.com/watch?v=_8TVA-BzO9k&t=7s
