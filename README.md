@@ -20,8 +20,8 @@ AMIDEWIN Spoofer made in python. Should work on most games besides valorant, but
 https://www.youtube.com/watch?v=_8TVA-BzO9k&t=7s
 
 # How to use 📗
-Download the exe from releases or main.py, and put them in the same folder as AMIDEWINx64.EXE, amifldrv64.sys, and amigendrv64.sys.
-Run the exe/main.py, and select 1. Click yes on all prompts requesting admin.
+Download the exe from releases or main.py, and put them in the same folder as everything else in the repo.
+Run the exe/main.py, and select an option. Click yes on all prompts requesting admin.
 
 # Compatabilty 🧭
 Should work on all motherboards besides Asus or OEM motherboards (HP, Lenovo, Dell, Alienware)
