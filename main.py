@@ -91,9 +91,15 @@ elif choice == "2":
   print("Temp Spoofing!")
   os.system("cd libs && kdmapper.exe driver.sys")
   print("Spoofing Complete! Exiting...")
+  time.sleep(3)
+  sys.exit()
 
 elif choice == "3":
+  print("Checking HWID!")
   os.system("cd libs && checker.bat")
+  os.system("Exiting!")
+  time.sleep(3)
+  sys.exit()
 
 elif choice == "4":
     print("Exiting!")
