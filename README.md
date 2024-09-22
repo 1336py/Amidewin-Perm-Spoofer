@@ -4,9 +4,9 @@ AMIDEWIN Spoofer made in python. Should work on most games besides valorant or f
 # Roadmap 🗺️
 ✅ 0 Stars = Perm Spoofing
 
-❌ 5 Stars = https://keyauth.cc/ Integration
+✅ 5 Stars = https://keyauth.cc/ Integration
 
-❌ 10 Stars = Temp Spoofing + HWID Checker added
+✅ 10 Stars = Temp Spoofing + HWID Checker added
 
 ❌ 15 Stars = Cleaners + Mac spoofing + Monitor Spoofing
 
