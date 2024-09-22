@@ -39,7 +39,7 @@ keyauthapp = keyauth.api(
     name=APP_NAME,
     ownerid=OWNER_ID,
     secret=APP_SECRET,
-    version=APP_VERSION
+    version=APP_VERSION,
     hash_to_check=HASH
 )
 
@@ -61,7 +61,7 @@ except Exception as e:
 # Basic choices
 os.system("cls")
 print(logo + "\n\n")
-choice = input("[1] Spoof\n[2] Exit\n\nEnter your choice: ")
+choice = input("[1] Perm Spoof\n[2] Temp Spoof\n[3] Check your HWID\n[4] Exit\n\nEnter your choice: ")
 
 if choice == "1":
     # Spoofing
@@ -87,9 +87,15 @@ if choice == "1":
     time.sleep(3)
     sys.exit()
 
-
-# Exit binds
 elif choice == "2":
+  print("Temp Spoofing!")
+  os.system("cd libs && kdmapper.exe driver.sys")
+  print("Spoofing Complete! Exiting...")
+
+elif choice == "3":
+  os.system("cd libs && checker.bat")
+
+elif choice == "4":
     print("Exiting!")
     time.sleep(3)
     sys.exit()
