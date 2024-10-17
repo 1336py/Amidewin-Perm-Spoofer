@@ -8,7 +8,7 @@ AMIDEWIN Spoofer made in python. Should work on most games besides valorant, but
 
 ✅ 10 Stars = Temp Spoofing + HWID Checker added
 
-❌ 15 Stars = Cleaners + Mac spoofing + Monitor Spoofing
+❌ 15 Stars = Cleaners + Mac spoofing + Monitor Spoofing (yes I will add this soon dw)
 
 ❌ 30 Stars = GUI Integration (customtkinter) + Asus Perm Spoofing
 
